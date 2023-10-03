@@ -12,7 +12,7 @@
 - Other than that, the game should be visually pleasing even though it uses simple graphics. 
 
 **Game Features:**
-- Collision detection algorithm, current & highest score, checkered field background, scalable drawing method, and special head color for the snake.
+- Collision detection algorithm, current & highest score, checker field background, scalable drawing method, and special head color for the snake.
 
 **OOP Practices Used:**
 - Inheritance, abstract classes, polymorphism, and encapsulation.
