@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<SplitPane dividerPositions="0.24310776942355888" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ch.makery.address.view.showGameOverviewController">
+  <items>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+         <children>
+            <VBox fx:id="gameVBox" alignment="CENTER" prefHeight="600.0" prefWidth="195.0" spacing="125.0" visible="false">
+               <children>
+                  <Label fx:id="nameLabel" text="\$playerName">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font></Label>
+                  <Label fx:id="scoreLabel" text="Score: $currentScore">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font></Label>
+                  <Label fx:id="highscoreLabel" text="Highscore: $highestScore">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font></Label>
+                  <Button fx:id="exitToMenu" mnemonicParsing="false" onAction="#handleReturnToMenuOverview" text="Exit to Menu" />
+               </children>
+            </VBox>
+            <VBox fx:id="buttonVBox" alignment="CENTER" prefHeight="600.0" prefWidth="195.0">
+               <children>
+                  <Button fx:id="startGame" mnemonicParsing="false" onAction="#handleShowGameOverview" text="Start Game" />
+               </children>
+            </VBox>
+         </children></AnchorPane>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+         <children>
+            <Canvas fx:id="gameCanvas" height="600.0" nodeOrientation="INHERIT" width="600.0" />
+         </children></AnchorPane>
+  </items>
+</SplitPane>
