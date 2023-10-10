@@ -5,7 +5,7 @@
 - This is the final project for my Object Oriented Programming (OOP) course at my university using Scala, ScalaFX, and SceneBuilder.
 
 **Video Demonstration:**
-- YT Link: [https://studio.youtube.com/video/E2xAmNNGEig/edit](url)
+- YT Link: [https://www.youtube.com/watch?v=E2xAmNNGEig](url)
 
 **How to Run:**
 1. Have SBT installed and fully set up.
