@@ -32,9 +32,9 @@
 - Better UI design, implement difficulty levels, implement other obstacles (either a fixed amount or increase over time), leaderboard for the highest score, and use CSS to style the UI.
 
 **Files & Folders**
-- **src/main**: the main project file.
-- **build.sbt**: the sbt build version used by the project (please use this build version when trying to run the project).
-- **src/main/resources/ch/makery/address/view**: all of the scenes (fxml) created using SceneBuilder.
-- **src/main/scala/ch/makery/address/MainApp.scala**: the main class that is used for running the entire game.
-- **src/main/scala/ch/makery/address/model**: all of the logic and classes used by the game.
-- **src/main/scala/ch/makery/address/view**: all of the controller classes assigned for their respective scenes.
+- **_src/main_**: the main project file.
+- **_build.sbt_**: the sbt build version used by the project (please use this build version when trying to run the project).
+- **_src/main/resources/ch/makery/address/view_**: all of the scenes (fxml) created using SceneBuilder.
+- **_src/main/scala/ch/makery/address/MainApp.scala_**: the main class that is used for running the entire game.
+- **_src/main/scala/ch/makery/address/model_**: all of the logic and classes used by the game.
+- **_src/main/scala/ch/makery/address/view_**: all of the controller classes assigned for their respective scenes.
