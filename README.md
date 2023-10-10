@@ -11,9 +11,9 @@
 1. Have SBT installed and fully set up.
 2. Download the repository and unzip it.
 3. Once unzipped, open the folder.
-4. In the folder, click the address bar and type sbt then hit enter.
+4. In the folder, click the address bar and type sbt then hit the enter key.
 5. A command prompt window should pop up and the sbt server will start.
-6. Once the server started, type run. This will compile the code and run the MainApp.scala.
+6. Once the server started, type run and hit the enter key. This will compile the code and run the MainApp.scala.
 
 **Goal:**
 - This project aims to create a 2D game using Scala, ScalaFX, and SceneBuilder while using OOP practices.
