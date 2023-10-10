@@ -4,6 +4,17 @@
 **Description:**
 - This is the final project for my Object Oriented Programming (OOP) course at my university using Scala, ScalaFX, and SceneBuilder.
 
+**Video Demonstration:**
+- YT Link: [https://studio.youtube.com/video/E2xAmNNGEig/edit](url)
+
+**How to Run:**
+1. Have SBT installed and fully set up.
+2. Download the repository and unzip it.
+3. Once unzipped, open the folder.
+4. In the folder, click the address bar and type sbt then hit enter.
+5. A command prompt window should pop up and the sbt server will start.
+6. Once the server started, type run. This will compile the code and run the MainApp.scala.
+
 **Goal:**
 - This project aims to create a 2D game using Scala, ScalaFX, and SceneBuilder while using OOP practices.
 
@@ -17,5 +28,13 @@
 **OOP Practices Used:**
 - Inheritance, abstract classes, polymorphism, and encapsulation.
 
-**What Can Be Improved:**
+**Future Improvements:**
 - Better UI design, implement difficulty levels, implement other obstacles (either a fixed amount or increase over time), leaderboard for the highest score, and use CSS to style the UI.
+
+**Files & Folders**
+- **src/main**: the main project file.
+- **build.sbt**: the sbt build version used by the project (please use this build version when trying to run the project).
+- **src/main/resources/ch/makery/address/view**: all of the scenes (fxml) created using SceneBuilder.
+- **src/main/scala/ch/makery/address/MainApp.scala**: the main class that is used for running the entire game.
+- **src/main/scala/ch/makery/address/model**: all of the logic and classes used by the game.
+- **src/main/scala/ch/makery/address/view**: all of the controller classes assigned for their respective scenes.
